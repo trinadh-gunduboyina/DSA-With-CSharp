@@ -1,0 +1,15 @@
+C:\Users\ggtri\OneDrive\Desktop\DSA-with-CSharp\DSA-With-CSharp\SubarraySumApp\bin\Debug\net9.0\SubarraySumApp.exe
+C:\Users\ggtri\OneDrive\Desktop\DSA-with-CSharp\DSA-With-CSharp\SubarraySumApp\bin\Debug\net9.0\SubarraySumApp.deps.json
+C:\Users\ggtri\OneDrive\Desktop\DSA-with-CSharp\DSA-With-CSharp\SubarraySumApp\bin\Debug\net9.0\SubarraySumApp.runtimeconfig.json
+C:\Users\ggtri\OneDrive\Desktop\DSA-with-CSharp\DSA-With-CSharp\SubarraySumApp\bin\Debug\net9.0\SubarraySumApp.dll
+C:\Users\ggtri\OneDrive\Desktop\DSA-with-CSharp\DSA-With-CSharp\SubarraySumApp\bin\Debug\net9.0\SubarraySumApp.pdb
+C:\Users\ggtri\OneDrive\Desktop\DSA-with-CSharp\DSA-With-CSharp\SubarraySumApp\obj\Debug\net9.0\SubarraySumApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ggtri\OneDrive\Desktop\DSA-with-CSharp\DSA-With-CSharp\SubarraySumApp\obj\Debug\net9.0\SubarraySumApp.AssemblyInfoInputs.cache
+C:\Users\ggtri\OneDrive\Desktop\DSA-with-CSharp\DSA-With-CSharp\SubarraySumApp\obj\Debug\net9.0\SubarraySumApp.AssemblyInfo.cs
+C:\Users\ggtri\OneDrive\Desktop\DSA-with-CSharp\DSA-With-CSharp\SubarraySumApp\obj\Debug\net9.0\SubarraySumApp.csproj.CoreCompileInputs.cache
+C:\Users\ggtri\OneDrive\Desktop\DSA-with-CSharp\DSA-With-CSharp\SubarraySumApp\obj\Debug\net9.0\SubarraySumApp.sourcelink.json
+C:\Users\ggtri\OneDrive\Desktop\DSA-with-CSharp\DSA-With-CSharp\SubarraySumApp\obj\Debug\net9.0\SubarraySumApp.dll
+C:\Users\ggtri\OneDrive\Desktop\DSA-with-CSharp\DSA-With-CSharp\SubarraySumApp\obj\Debug\net9.0\refint\SubarraySumApp.dll
+C:\Users\ggtri\OneDrive\Desktop\DSA-with-CSharp\DSA-With-CSharp\SubarraySumApp\obj\Debug\net9.0\SubarraySumApp.pdb
+C:\Users\ggtri\OneDrive\Desktop\DSA-with-CSharp\DSA-With-CSharp\SubarraySumApp\obj\Debug\net9.0\SubarraySumApp.genruntimeconfig.cache
+C:\Users\ggtri\OneDrive\Desktop\DSA-with-CSharp\DSA-With-CSharp\SubarraySumApp\obj\Debug\net9.0\ref\SubarraySumApp.dll
