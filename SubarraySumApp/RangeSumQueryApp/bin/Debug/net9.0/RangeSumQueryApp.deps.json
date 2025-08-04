@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "RangeSumQueryApp/1.0.0": {
+        "runtime": {
+          "RangeSumQueryApp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RangeSumQueryApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

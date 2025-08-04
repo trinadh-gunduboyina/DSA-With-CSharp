@@ -3,70 +3,77 @@
 namespace LeetCodeSolutions
 {
     /*
-     * LeetCode 3427 – Sum of Variable Length Subarrays
+     * LeetCode 303 – Range Sum Query - Immutable
      * 
-     * You are given an integer array nums of size n. 
-     * For each index i where 0 <= i < n, define a subarray nums[start ... i] 
-     * where start = max(0, i - nums[i]).
+     * Given an integer array nums, handle multiple queries of the following type:
+     * - Calculate the sum of the elements of nums between indices left and right inclusive.
      * 
-     * Return the total sum of all elements from the subarray defined for each index in the array.
+     * Implement the NumArray class:
+     * - NumArray(int[] nums) → Initializes the object with the integer array nums.
+     * - int SumRange(int left, int right) → Returns the sum from index left to right inclusive.
      * 
-     * Example 1:
-     * Input: nums = [2, 3, 1]
-     * Output: 11
+     * Example:
+     * Input:
+     * ["NumArray", "sumRange", "sumRange", "sumRange"]
+     * [[[-2, 0, 3, -5, 2, -1]], [0, 2], [2, 5], [0, 5]]
+     * 
+     * Output:
+     * [null, 1, -1, -3]
+     * 
      * Explanation:
-     * i = 0 → [2]       → sum = 2
-     * i = 1 → [2, 3]    → sum = 5
-     * i = 2 → [3, 1]    → sum = 4
-     * Total = 2 + 5 + 4 = 11
-     * 
-     * Example 2:
-     * Input: nums = [3, 1, 1, 2]
-     * Output: 13
-     * Explanation:
-     * i = 0 → [3]           → sum = 3
-     * i = 1 → [3, 1]        → sum = 4
-     * i = 2 → [1, 1]        → sum = 2
-     * i = 3 → [1, 1, 2]     → sum = 4
-     * Total = 3 + 4 + 2 + 4 = 13
+     * NumArray numArray = new NumArray([-2, 0, 3, -5, 2, -1]);
+     * numArray.SumRange(0, 2); // returns 1
+     * numArray.SumRange(2, 5); // returns -1
+     * numArray.SumRange(0, 5); // returns -3
      * 
      * Constraints:
-     * - 1 <= n == nums.length <= 100
-     * - 1 <= nums[i] <= 1000
+     * - 1 <= nums.Length <= 10^4
+     * - -10^5 <= nums[i] <= 10^5
+     * - 0 <= left <= right < nums.Length
+     * - At most 10^4 calls will be made to SumRange.
      */
 
-    class Solution
+    public class NumArray
     {
-        public int SubarraySum(int[] nums)
+        private int[] prefixSums;
+
+        // Constructor: builds prefix sum array
+        public NumArray(int[] nums)
         {
-            int total = 0;
+            prefixSums = new int[nums.Length];
 
-            for (int i = 0; i < nums.Length; i++)
+            if (nums.Length == 0)
+                return;
+
+            prefixSums[0] = nums[0];
+
+            for (int i = 1; i < nums.Length; i++)
             {
-                int start = Math.Max(0, i - nums[i]);
-                int subarraySum = 0;
-
-                for (int j = start; j <= i; j++)
-                {
-                    subarraySum += nums[j];
-                }
-
-                total += subarraySum;
+                prefixSums[i] = prefixSums[i - 1] + nums[i];
             }
-
-            return total;
         }
 
-        // Main method to test the solution
+        // Returns sum from index left to right
+        public int SumRange(int left, int right)
+        {
+            if (left == 0)
+                return prefixSums[right];
+            else
+                return prefixSums[right] - prefixSums[left - 1];
+        }
+    }
+
+    // Test Program
+    class Program
+    {
         static void Main(string[] args)
         {
-            Solution sol = new Solution();
+            int[] nums = { -2, 0, 3, -5, 2, -1 };
+            NumArray numArray = new NumArray(nums);
 
-            int[] nums1 = { 2, 3, 1 };
-            Console.WriteLine("Input: [2, 3, 1] → Output: " + sol.SubarraySum(nums1)); // Expected: 11
-
-            int[] nums2 = { 3, 1, 1, 2 };
-            Console.WriteLine("Input: [3, 1, 1, 2] → Output: " + sol.SubarraySum(nums2)); // Expected: 13
+            Console.WriteLine("SumRange(0, 2): " + numArray.SumRange(0, 2)); // Output: 1
+            Console.WriteLine("SumRange(2, 5): " + numArray.SumRange(2, 5)); // Output: -1
+            Console.WriteLine("SumRange(0, 5): " + numArray.SumRange(0, 5)); // Output: -3
         }
     }
 }

@@ -1,0 +1,15 @@
+C:\Users\ggtri\OneDrive\Desktop\DSA-with-CSharp\DSA-With-CSharp\SubarraySumApp\RangeSumQueryApp\bin\Debug\net9.0\RangeSumQueryApp.exe
+C:\Users\ggtri\OneDrive\Desktop\DSA-with-CSharp\DSA-With-CSharp\SubarraySumApp\RangeSumQueryApp\bin\Debug\net9.0\RangeSumQueryApp.deps.json
+C:\Users\ggtri\OneDrive\Desktop\DSA-with-CSharp\DSA-With-CSharp\SubarraySumApp\RangeSumQueryApp\bin\Debug\net9.0\RangeSumQueryApp.runtimeconfig.json
+C:\Users\ggtri\OneDrive\Desktop\DSA-with-CSharp\DSA-With-CSharp\SubarraySumApp\RangeSumQueryApp\bin\Debug\net9.0\RangeSumQueryApp.dll
+C:\Users\ggtri\OneDrive\Desktop\DSA-with-CSharp\DSA-With-CSharp\SubarraySumApp\RangeSumQueryApp\bin\Debug\net9.0\RangeSumQueryApp.pdb
+C:\Users\ggtri\OneDrive\Desktop\DSA-with-CSharp\DSA-With-CSharp\SubarraySumApp\RangeSumQueryApp\obj\Debug\net9.0\RangeSumQueryApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ggtri\OneDrive\Desktop\DSA-with-CSharp\DSA-With-CSharp\SubarraySumApp\RangeSumQueryApp\obj\Debug\net9.0\RangeSumQueryApp.AssemblyInfoInputs.cache
+C:\Users\ggtri\OneDrive\Desktop\DSA-with-CSharp\DSA-With-CSharp\SubarraySumApp\RangeSumQueryApp\obj\Debug\net9.0\RangeSumQueryApp.AssemblyInfo.cs
+C:\Users\ggtri\OneDrive\Desktop\DSA-with-CSharp\DSA-With-CSharp\SubarraySumApp\RangeSumQueryApp\obj\Debug\net9.0\RangeSumQueryApp.csproj.CoreCompileInputs.cache
+C:\Users\ggtri\OneDrive\Desktop\DSA-with-CSharp\DSA-With-CSharp\SubarraySumApp\RangeSumQueryApp\obj\Debug\net9.0\RangeSumQueryApp.sourcelink.json
+C:\Users\ggtri\OneDrive\Desktop\DSA-with-CSharp\DSA-With-CSharp\SubarraySumApp\RangeSumQueryApp\obj\Debug\net9.0\RangeSumQueryApp.dll
+C:\Users\ggtri\OneDrive\Desktop\DSA-with-CSharp\DSA-With-CSharp\SubarraySumApp\RangeSumQueryApp\obj\Debug\net9.0\refint\RangeSumQueryApp.dll
+C:\Users\ggtri\OneDrive\Desktop\DSA-with-CSharp\DSA-With-CSharp\SubarraySumApp\RangeSumQueryApp\obj\Debug\net9.0\RangeSumQueryApp.pdb
+C:\Users\ggtri\OneDrive\Desktop\DSA-with-CSharp\DSA-With-CSharp\SubarraySumApp\RangeSumQueryApp\obj\Debug\net9.0\RangeSumQueryApp.genruntimeconfig.cache
+C:\Users\ggtri\OneDrive\Desktop\DSA-with-CSharp\DSA-With-CSharp\SubarraySumApp\RangeSumQueryApp\obj\Debug\net9.0\ref\RangeSumQueryApp.dll
